@@ -1,0 +1,18 @@
+.center-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Add space between the images */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures the image maintains its aspect ratio */
+}

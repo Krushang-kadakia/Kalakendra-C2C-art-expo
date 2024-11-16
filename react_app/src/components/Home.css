@@ -1,0 +1,53 @@
+.icons{
+    font-size: 25px;
+    color: rgb(117, 114, 114);
+}
+.icons:hover{
+    color: red;
+    cursor: pointer;
+}
+.icon-container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+}
+.links{
+    text-decoration: none;
+    font-size: 24px;
+    color:  #002f34;
+    font-weight: bold;
+}
+.heading5{
+    text-align: center;
+}
+.price-text{
+    color:  #002f34;
+}
+.clear-btn{
+    height: 30px;
+    background-color: #002f34;
+    color: #fff;
+    border-radius: 4px ;
+    outline: none;
+    border: none;
+    padding: 1px 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.red-icons{
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+}
+.red-icons:hover{
+    cursor: pointer;
+}
+.hover-effect:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
